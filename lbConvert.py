@@ -1,11 +1,11 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import sys
 
 conversionRatio = 0.453592
 
 while True:
-	userInput = raw_input()
+	userInput = input()
 	try:
 		int(userInput)
 	except:

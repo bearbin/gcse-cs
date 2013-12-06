@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 def main():
 	# Schedule the marks and see what happens.
@@ -10,7 +10,7 @@ def getMark():
 	# Take a mark from stdin and process it.
 	# Returns false upon failure and true upon success.
 	print("Please enter your mark: ")
-	mark = raw_input()
+	mark = input()
 	# Check for errors.
 	try:
 		int(mark)

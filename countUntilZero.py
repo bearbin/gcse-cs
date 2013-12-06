@@ -1,11 +1,11 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import sys
 
 sum = 0
 
 while True:
-	userI = raw_input()
+	userI = input()
 	try:
 		userI = int(userI)
 	except:

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import sys
 
@@ -6,7 +6,7 @@ derp = []
 
 for i in range(8):
 	while True:
-		x = raw_input()
+		x = input()
 		try:
 			derp.append(int(x))
 		except:

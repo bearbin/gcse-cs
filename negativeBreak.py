@@ -1,7 +1,7 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 while True:
-	userI = raw_input()
+	userI = input()
 	try:
 		lelo = int(userI)
 	except:

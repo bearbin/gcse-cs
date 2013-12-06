@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import sys
 
@@ -6,7 +6,7 @@ alphabet = "abcdefghijklmnopqrstuvwxyz"
 upper = 0
 
 while True:
-	start = raw_input()[:1]
+	start = input()[:1]
 	if start.lower() in alphabet:
 		break
 	else:
@@ -16,7 +16,7 @@ if start.isupper():
 start = alphabet.find(start.lower())
 
 while True:
-	stop = raw_input()[:1]
+	stop = input()[:1]
 	if stop.lower() in alphabet:
 		break
 	else:
