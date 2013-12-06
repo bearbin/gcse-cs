@@ -10,7 +10,6 @@ for i in range(8):
 		try:
 			derp.append(int(x))
 		except:
-			print(e)
 			sys.stderr.write("Non-integer entered!\n")
 			continue
 		else:
