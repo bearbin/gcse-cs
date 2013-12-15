@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 
+"""
+Print a table of pound to kilogram conversions.
+"""
+
 conversionRatio = 0.453592
 
 for i in range(20):
