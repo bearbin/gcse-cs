@@ -28,6 +28,7 @@ while True:
 		print("You are being charged " + str(charge) + " because your balance is low!")
 	else:
 		charge = 0
-	print("Withdrawal successful!")
 	balance -= (requested + charge)
 	daily_limit -= requested
+	print("Withdrawal successful!")
+	print("Your balance is: " + str(balance))
